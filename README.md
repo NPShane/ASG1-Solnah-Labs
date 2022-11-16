@@ -2,9 +2,12 @@
 
 This is the repo for Shane Leong's Assignment 1.
 
-## Brief
-
 Solnah Labs is a video game development company, offering services such as contract development, porting to various platforms, as well as making their own games in-house. Their website showcases information about their games, about the services they offer and about the company itself.
+
+## Design Process
+
+This website is for potential customers to know about the games S-Labs develops and potentially get them to try them out. It is also for other developers to look at S-Labs' portfolio and potentially earn another collaboration with us.
+- As a user, I want to learn more about the games S-Labs develops and possibly find ways to purchase them.
 
 ## Sitemap
 
