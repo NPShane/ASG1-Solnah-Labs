@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: grey;
+  position: sticky;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .selected-page {
+  background-color: blueviolet;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 1em;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
