@@ -2,20 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
   background-color: grey;
   position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  list-style-type: none;
 }
 
 nav li {
   display: inline-block;
-  padding: 10px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 nav a {
+  display: flex;
+  padding: 10px;
   color: white;
   text-decoration: none;
 }
@@ -24,8 +30,38 @@ nav .selected-page {
   background-color: blueviolet;
 }
 
+nav a:hover {
+  background-color: blueviolet;
+}
+
+header {
+  background: greenyellow;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font: bold italic 2em sans-serif;
+  color: blueviolet;
+  text-shadow: #000 2px 2px 0.2rem;
+}
+
+.game-spread {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game-spread ul {
+  list-style-type: none;
+}
+
+.game-spread li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
 footer {
-  position: fixed;
   bottom: 0px;
   padding: 1em;
   width: 100%;
