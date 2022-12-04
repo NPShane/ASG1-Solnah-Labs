@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 nav {
@@ -16,7 +17,6 @@ nav {
 
 nav li {
   display: inline-block;
-  
 }
 
 nav a {
@@ -24,6 +24,11 @@ nav a {
   padding: 10px;
   color: white;
   text-decoration: none;
+}
+
+nav img {
+  position: relative;
+  vertical-align: middle;
 }
 
 nav .selected-page {
@@ -46,19 +51,56 @@ header {
   text-shadow: #000 2px 2px 0.2rem;
 }
 
-.game-spread {
-  display: flex;
-  justify-content: space-evenly;
+article {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.game-spread ul {
+h2 {
+  padding-bottom: 1.5rem;
+}
+
+li {
   list-style-type: none;
 }
 
+.game-spread {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .game-spread li {
-  display: inline-block;
+  width: 33%;
   padding: 10px;
+  min-height: 200px;
+}
+
+.button {
+  background-color: yellowgreen;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.vectorshot {
+  background-color: blue;
+}
+
+.spadeknights {
+  background-color: whitesmoke;
+}
+
+.omega {
+  background-color: aqua;
 }
 
 footer {
